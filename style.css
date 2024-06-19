@@ -10,31 +10,31 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
 .caixa-principal{
+    border-radius: 50px;
     background-color: var(--cor-principal);
-    width: 90%;
+    width: 600px;
     max-width: 600px;
     text-align: center;
-    padding: 20px;
-    border: 2px solid #5BBE42;
-    animation: borderTransition 2s infinite alternate; 
+    padding: 10px;
+    border: 2px solid  #2e84a7;
+    animation: borderTransition 2s infinite alternate;
 }
 
 @keyframes borderTransition {
     0% {
-        border-color: red; 
+        border-color: rgb(17, 77, 134);
     }
     50% {
-        border-color: blue; 
+        border-color: rgba(27, 170, 236, 0.705);
     }
     100% {
-        border-color: green; 
+        border-color: #58ddd6;
     }
 }
 
@@ -66,14 +66,14 @@ button:hover{
 
 body {
     height: 100vh;
-    background: linear-gradient(to left,green);
+    background: linear-gradient(210deg, #000508, #043046, #000508);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 p:hover {
-    color: green; 
+    color: #2BDEFD; 
     font-weight: bold;
 }
 
@@ -123,7 +123,7 @@ header img {
 }
 
 h1 {
-    color: #5BBE42;
+    color: #2BDEFD;
 }
 
 
