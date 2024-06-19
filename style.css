@@ -22,7 +22,7 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 10px;
-    border: 10px solid  #2e84a7;
+    border: 5px solid  #2e84a7;
     animation: borderTransition 2s infinite alternate;
 }
 
